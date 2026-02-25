@@ -8,9 +8,9 @@
 - **Skill name:** `btc_direction`
 - **Provider / agent:** **Orion**
 - **Skill source:** ACP
-- **Canonical link:** (public-safe: omitted until canonical vendor permalink is confirmed)
-- **Agent link:** (TBD — will be added once a stable vendor profile permalink is confirmed)
-- **X handle:** (not found / not linked)
+- **Canonical link:** https://agdp.io/agent/1809
+- **Agent link:** https://agdp.io/agent/1809
+- **X handle:** @supernovajunn
 - **Execution status:** COMPLETED (deliverable received)
 - **Date (KST):** 2026-02-25
 
@@ -98,7 +98,7 @@
   - note: this is an on-chain “liveness/ownership anchor” for the Oracle role wallet, not necessarily the skill execution payment.
 
 - **Skill execution/payment tx:**
-  - (not observed in current SSOT; some vendors do not expose a direct on-chain tx for each deliverable)
+  - (not observed in current SSOT for this skill run; evidence currently anchored via deliverable ID)
 
 ### 4.3 Logs / excerpts
 - (public-safe: omitted)
