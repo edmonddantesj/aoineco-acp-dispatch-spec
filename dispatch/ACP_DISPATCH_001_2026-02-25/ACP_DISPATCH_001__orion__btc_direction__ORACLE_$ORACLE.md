@@ -4,7 +4,7 @@
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Draft (pre-public review)
+- **Classification:** Public-safe
 - **Skill name:** `btc_direction`
 - **Provider / agent:** **Orion**
 - **Skill source:** ACP

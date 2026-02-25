@@ -1,10 +1,10 @@
-# ACP Dispatch — Skill Report (draft)
+# ACP Dispatch — Skill Report (public-safe)
 
 ## 0) Document Meta
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Draft (pre-public review)
+- **Classification:** Public-safe
 - **Skill name:** `agent_quality_leaderboard`
 - **Provider / agent:** **Airchimedes** (Workflow Orchestration Agent)
 - **Skill source:** ACP
@@ -100,7 +100,7 @@
   - (not observed in current SSOT for this skill run; evidence currently anchored via deliverable ID)
 
 ### 4.3 Logs / excerpts
-- (draft: omitted; will add public-safe excerpt if available)
+- (public-safe: omitted)
 
 ---
 

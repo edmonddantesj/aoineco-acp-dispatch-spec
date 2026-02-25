@@ -1,10 +1,10 @@
-# ACP Dispatch — Skill Report (draft)
+# ACP Dispatch — Skill Report (public-safe)
 
 ## 0) Document Meta
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Draft (pre-public review)
+- **Classification:** Public-safe
 - **Skill name:** `calculate_position_size`
 - **Provider / agent:** **CalcFier**
 - **Skill source:** ACP

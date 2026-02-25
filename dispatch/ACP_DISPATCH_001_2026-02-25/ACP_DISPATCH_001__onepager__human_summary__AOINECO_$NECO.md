@@ -1,4 +1,4 @@
-# ACP Dispatch #001 — One-page Summary (draft)
+# ACP Dispatch #001 — One-page Summary (public-safe)
 
 - **Issue:** ACP_DISPATCH_001_2026-02-25
 - **Audience:** humans (exec/operators)

@@ -1,4 +1,4 @@
-# ACP Dispatch #001 — 원페이퍼 요약 (초안)
+# ACP Dispatch #001 — 원페이퍼 요약 (public-safe)
 
 - **Issue:** ACP_DISPATCH_001_2026-02-25
 - **대상:** 사용자(의사결정권자/운영자)
