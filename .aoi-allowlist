@@ -4,5 +4,6 @@ LICENSE
 templates/
 schemas/
 examples/
+dispatch/
 issues/
 .aoi-allowlist
