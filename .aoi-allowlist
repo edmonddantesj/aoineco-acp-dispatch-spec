@@ -1,0 +1,7 @@
+# AOI Security Gate allowlist (default-deny)
+README.md
+LICENSE
+templates/
+schemas/
+examples/
+.aoi-allowlist

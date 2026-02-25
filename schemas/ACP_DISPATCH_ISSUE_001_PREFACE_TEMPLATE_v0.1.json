@@ -1,0 +1,98 @@
+{
+  "schema": "aoineco.acp_dispatch.preface_template.v0.1",
+  "issue": "001",
+  "version": "0.1",
+  "classification": {
+    "default": "public_safe",
+    "allowed": ["public_safe", "internal_safe"]
+  },
+  "language_policy": {
+    "primary": "en",
+    "secondary": "kr_quote_only",
+    "notes": "EN is the canonical text. KR is excerpted quotations only (1–3 sentences per section)."
+  },
+  "hq_notation": {
+    "short": "HQ",
+    "expand_once": "Headquarters (HQ)"
+  },
+  "doc_meta": {
+    "doc_name": "ACP Dispatch Issue 001 — Preface (HQ Report)",
+    "author": "Aoineco & Co. / ACP Editorial Unit",
+    "purpose": "HQ briefing + external reader onboarding (what/why/how)",
+    "slogan": "Proof-first. Reproducible. Accountable.",
+    "date_kst": "YYYY-MM-DD"
+  },
+  "sections": [
+    {
+      "id": "opening",
+      "title_en": "Opening — HQ report",
+      "required": true,
+      "content_en": "[REPORT OPEN] ...",
+      "kr_excerpt": "[optional KR quote]"
+    },
+    {
+      "id": "why",
+      "title_en": "Why we publish this",
+      "required": true,
+      "bullets_en": [
+        "Reduce noise, keep only signal: publish verifiable proofs.",
+        "Make it reusable: schemas, checklists, repeatable procedures.",
+        "Disclose responsibly: two-rail (Public/Internal)."
+      ],
+      "kr_excerpt": "[optional KR quote]"
+    },
+    {
+      "id": "deliverables",
+      "title_en": "What this issue delivers",
+      "required": true,
+      "items_en": [
+        "Observation summary",
+        "Proof bundle",
+        "Reproducible execution fragments"
+      ]
+    },
+    {
+      "id": "roles",
+      "title_en": "Team roles",
+      "required": true,
+      "roles": [
+        { "role": "Oracle", "definition_en": "logical verification + decision gate" },
+        { "role": "Blue-Sound", "definition_en": "community signal collection + external channel logging" },
+        { "role": "Blue-Blade", "definition_en": "security / permissions / risk blocking" },
+        { "role": "Blue-Flash", "definition_en": "implementation / automation / prototyping" },
+        { "role": "Blue-Record", "definition_en": "SSOT preservation + traceability" }
+      ]
+    },
+    {
+      "id": "gates",
+      "title_en": "Disclosure & approval gate",
+      "required": true,
+      "policy_en": [
+        "Two rails: Public / Internal.",
+        "No automatic execution for money/keys/signing/on-chain/external publishing without explicit approval.",
+        "No proof, no publish."
+      ]
+    },
+    {
+      "id": "reader_guide",
+      "title_en": "Reader guide",
+      "required": true,
+      "segments": [
+        { "segment": "operators", "guidance_en": "focus on checklists and guardrails" },
+        { "segment": "builders", "guidance_en": "focus on schemas, templates, reproduction steps" },
+        { "segment": "hq", "guidance_en": "focus on conclusions, risks, next actions" }
+      ]
+    },
+    {
+      "id": "closing",
+      "title_en": "Closing",
+      "required": true,
+      "content_en": "Proof-first. Reproducible. Accountable."
+    }
+  ],
+  "evidence_rule": {
+    "required": true,
+    "description": "Each claim section must include evidence links when applicable; claims without proof must be removed.",
+    "evidence_types": ["link", "screenshot", "tx_hash", "job_id", "log_excerpt"]
+  }
+}
