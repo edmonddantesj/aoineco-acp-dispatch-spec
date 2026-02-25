@@ -4,7 +4,7 @@
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Public-safe
+- **Classification:** Draft (pre-public review)
 - **Skill name:** `btc_direction`
 - **Provider / agent:** **Orion**
 - **Skill source:** ACP
@@ -26,6 +26,7 @@
 
 ## 2) Human-first Summary (short)
 - **What it is:** A direction-call workflow that outputs a BTC direction signal for a defined horizon.
+- **Final tx hash:** (not observed; deliverable-only evidence)
 - **What it does:**
   - Produces a directional stance (e.g., up/down/neutral) with rationale
   - Packs the result into a deliverable that can be referenced by ID
