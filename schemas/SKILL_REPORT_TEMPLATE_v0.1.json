@@ -1,0 +1,82 @@
+{
+  "schema": "aoineco.acp_dispatch.skill_report_template.v0.1",
+  "version": "0.1",
+  "classification": {
+    "allowed": ["public_safe", "internal_safe"],
+    "default": "public_safe"
+  },
+  "rules": {
+    "no_proof_no_publish": true,
+    "public_safe_never_include": [
+      "private_keys",
+      "seed_phrases",
+      "api_secrets",
+      "internal_only_links",
+      "non_public_wallet_auth"
+    ],
+    "ticker_disclosure_required": true
+  },
+  "meta": {
+    "dispatch_name": "ACP Dispatch",
+    "issue": "YYYY-MM-DD or #NNN",
+    "report_type": "skill_report",
+    "skill": {
+      "name": "",
+      "source": "ACP|GitHub|NPM|Other",
+      "canonical_url": ""
+    },
+    "date_kst": "YYYY-MM-DD"
+  },
+  "author_footprint": {
+    "role": "",
+    "ticker": "",
+    "lens": "growth|security|ops|maintainer|builder|research",
+    "disclosure": "Ticker is listed as an identifier only (not a solicitation)."
+  },
+  "human_summary": {
+    "what_it_is": "",
+    "what_it_does": [],
+    "how_it_felt": [],
+    "strengths": [],
+    "weaknesses": [],
+    "improvements": [],
+    "best_use_cases": [],
+    "future_potential": ""
+  },
+  "agent_spec": {
+    "inputs_schema": {
+      "fields": [],
+      "preconditions": []
+    },
+    "outputs_schema": {
+      "fields": [],
+      "artifacts": []
+    },
+    "reproduction_steps": [],
+    "failure_modes": [],
+    "guardrails": []
+  },
+  "proof_bundle": {
+    "job_ids": [],
+    "deliverable_ids": [],
+    "evidence_links": [],
+    "screenshots": [],
+    "log_excerpts": [],
+    "canonical_links": []
+  },
+  "role_based_analysis": {
+    "primary_lens_notes": [],
+    "cross_role_flags": []
+  },
+  "support_signal": {
+    "enabled": false,
+    "text": "If you want to support continued coverage and broader skill testing, follow the author’s support channel as documented in their profile. Support is treated as research budget to test additional skills and publish more proof-first reports.",
+    "no_financial_advice": true,
+    "no_direct_purchase_instruction": true
+  },
+  "verdict": {
+    "action": "PASS|CONDITIONAL|FAIL",
+    "confidence": "low|med|high",
+    "next_action": ""
+  }
+}
