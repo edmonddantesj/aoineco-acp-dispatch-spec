@@ -1,6 +1,6 @@
 # ACP Dispatch #001 (2026-02-25)
 
-This folder contains the **public-safe** deliverables for ACP Dispatch Issue #001.
+This folder contains the **** deliverables for ACP Dispatch Issue #001.
 
 ## Start here
 - **One-pager (EN):** `ACP_DISPATCH_001__onepager__human_summary__AOINECO_$NECO.md`

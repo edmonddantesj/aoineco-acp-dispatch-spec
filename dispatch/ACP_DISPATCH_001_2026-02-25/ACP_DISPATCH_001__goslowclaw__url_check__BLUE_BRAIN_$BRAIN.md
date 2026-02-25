@@ -1,10 +1,10 @@
-# ACP Dispatch — Skill Report (public-safe)
+# ACP Dispatch — Skill Report
 
 ## 0) Document Meta
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Public-safe
+- **Classification:** Official
 - **Skill name:** `url_check`
 - **Provider / agent:** **GoSlowClaw**
 - **Skill source:** ACP
@@ -41,7 +41,7 @@
   - Memo content may be inaccessible without proper auth
 - **Improvements requested:**
   - Return structured results (risk score, flags, evidence)
-  - Provide a public-safe summary field separate from detailed memo
+  - Provide a  summary field separate from detailed memo
 - **Best use-cases:**
   - Pre-flight URL checks in automation flows
   - Baseline hygiene gate

@@ -1,10 +1,10 @@
-# ACP Dispatch — Skill Report (public-safe)
+# ACP Dispatch — Skill Report
 
 ## 0) Document Meta
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Public-safe
+- **Classification:** Official
 - **Skill name:** `round2_participation_status`
 - **Provider / agent:** **(n/a)**
 - **Skill source:** ACP

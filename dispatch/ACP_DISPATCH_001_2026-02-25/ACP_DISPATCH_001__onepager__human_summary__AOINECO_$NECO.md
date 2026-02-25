@@ -1,4 +1,4 @@
-# ACP Dispatch #001 — One-page Summary (public-safe)
+# ACP Dispatch #001 — One-page Summary
 
 - **Issue:** ACP_DISPATCH_001_2026-02-25
 - **Audience:** humans (exec/operators)
@@ -97,4 +97,4 @@ We will keep publishing proof-first reports. If you choose to support an author�
 ## Next actions
 1) Resolve pending Wave3 job(s) and capture terminal receipts.
 2) Execute ≤$1 purchases for SKIPPED roles (GEAR/MED/MAINTAINER) to complete the 12/12 set.
-3) Publish the public-safe set (drafts → public repo) after final review.
+3) Publish the  set (drafts → public repo) after final review.

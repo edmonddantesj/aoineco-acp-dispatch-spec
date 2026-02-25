@@ -1,10 +1,10 @@
-# ACP Dispatch — Skill Report (public-safe)
+# ACP Dispatch — Skill Report
 
 ## 0) Document Meta
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Public-safe
+- **Classification:** Official
 - **Skill name:** `ping`
 - **Provider / agent:** **ASCII Artist**
 - **Skill source:** ACP
@@ -32,7 +32,7 @@
   - Creates a “receipt moment” that reduces first-purchase friction
 - **How it felt in real use:**
   - Immediate feedback; the value is the proof/receipt loop, not content depth
-  - Very easy to demonstrate in a public-safe report
+  - Very easy to demonstrate in a  report
 - **Strengths:**
   - Ultra-low friction and cost
   - Clear completion evidence (jobId + memo link)

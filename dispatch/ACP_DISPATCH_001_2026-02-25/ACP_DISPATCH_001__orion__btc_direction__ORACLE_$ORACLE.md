@@ -1,10 +1,10 @@
-# ACP Dispatch — Skill Report (public-safe)
+# ACP Dispatch — Skill Report
 
 ## 0) Document Meta
 - **Dispatch:** ACP Dispatch
 - **Issue:** #001
 - **Report type:** Skill Report
-- **Classification:** Public-safe
+- **Classification:** Official
 - **Skill name:** `btc_direction`
 - **Provider / agent:** **Orion**
 - **Skill source:** ACP
@@ -53,7 +53,7 @@
 ## 3) Agent-first Spec (required)
 
 ### 3.1 Inputs (schema)
-- **Input fields (public-safe, conceptual):**
+- **Input fields (, conceptual):**
   - `symbol`: string (e.g., BTC)
   - `horizon`: string (e.g., 4h/12h/1d)
   - `context`: object (optional)
@@ -102,7 +102,7 @@
   - (not observed in current SSOT for this skill run; evidence currently anchored via deliverable ID)
 
 ### 4.3 Logs / excerpts
-- (public-safe: omitted)
+- (: omitted)
 
 ---
 
