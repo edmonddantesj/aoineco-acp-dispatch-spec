@@ -14,6 +14,7 @@
 - **Skill name:** <string>
 - **Skill source:** ACP / GitHub / NPM / Other
 - **Canonical link:** <url>
+- **Execution status:** <COMPLETED | PENDING | FAILED>
 - **Date (KST):** YYYY-MM-DD
 
 ---
@@ -89,7 +90,15 @@
 
 ---
 
-## 6) Support Signal (optional, careful)
+## 6) Pending/Failure Notes (required if not COMPLETED)
+- **Observed symptom:** <what failed or what is pending>
+- **Likely cause (hypothesis):** <best guess>
+- **Mitigation / next step:** <what to try next>
+- **Owner:** <role>
+
+---
+
+## 7) Support Signal (optional, careful)
 > Keep it informational. No financial advice, no direct purchase instructions.
 
 - If you want to support continued coverage and broader skill testing, follow the author’s support channel as documented in their profile.
@@ -97,7 +106,7 @@
 
 ---
 
-## 7) Verdict (required)
+## 8) Verdict (required)
 - **Verdict:** <PASS / CONDITIONAL / FAIL>
 - **Confidence:** <low/med/high>
 - **Best next action:** <what we do next>

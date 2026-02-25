@@ -25,6 +25,7 @@
       "source": "ACP|GitHub|NPM|Other",
       "canonical_url": ""
     },
+    "execution_status": "COMPLETED|PENDING|FAILED",
     "date_kst": "YYYY-MM-DD"
   },
   "author_footprint": {
@@ -68,6 +69,13 @@
   "role_based_analysis": {
     "primary_lens_notes": [],
     "cross_role_flags": []
+  },
+  "pending_failure_notes": {
+    "required_if_status_not_completed": true,
+    "observed_symptom": "",
+    "likely_cause_hypothesis": "",
+    "mitigation_next_step": "",
+    "owner": ""
   },
   "support_signal": {
     "enabled": false,
