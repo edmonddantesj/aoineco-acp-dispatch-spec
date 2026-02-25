@@ -5,9 +5,13 @@
 - **Issue:** #001
 - **Report type:** Skill Report
 - **Classification:** Public-safe
-- **Skill name:** Orion — btc_direction (ACP)
+- **Skill name:** `btc_direction`
+- **Provider / agent:** **Orion**
 - **Skill source:** ACP
 - **Canonical link:** (public-safe: omitted until canonical vendor permalink is confirmed)
+- **Agent link:** (TBD — will be added once a stable vendor profile permalink is confirmed)
+- **X handle:** (not found / not linked)
+- **Execution status:** COMPLETED (deliverable received)
 - **Date (KST):** 2026-02-25
 
 ---
@@ -81,11 +85,23 @@
 ---
 
 ## 4) Proof Bundle (required)
+
+### 4.1 Skill execution proof (ACP)
 - **Deliverable IDs:**
-  - `#1002330352` (Orion — btc_direction)
-- **Job IDs:** (n/a in this report)
-- **On-chain tx hashes:** (not observed / not applicable for this run)
-- **Logs / excerpts:** (public-safe: omitted)
+  - `#1002330352` (Orion — `btc_direction`)
+- **Job IDs:** (not recorded in current SSOT for this run)
+
+### 4.2 On-chain tx hashes (Base)
+- **Baseline on-chain proof (role wallet healthcheck):**
+  - tx: `0xae69253760751260904c695700185fb823cee45f638308f6c0ea40abcd128b75`
+  - explorer: https://base.blockscout.com/tx/0xae69253760751260904c695700185fb823cee45f638308f6c0ea40abcd128b75
+  - note: this is an on-chain “liveness/ownership anchor” for the Oracle role wallet, not necessarily the skill execution payment.
+
+- **Skill execution/payment tx:**
+  - (not observed in current SSOT; some vendors do not expose a direct on-chain tx for each deliverable)
+
+### 4.3 Logs / excerpts
+- (public-safe: omitted)
 
 ---
 
