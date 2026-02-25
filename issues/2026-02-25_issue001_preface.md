@@ -58,22 +58,27 @@ Operational note (public-safe): vendor-side job creation instability (HTTP 500) 
 
 ---
 
-## 6) Roles & footprints (authorship matters)
+## 6) Team roster (Issue #001) + footprints
 
 Each write-up must clearly include:
-
 - **Author footprint:** who wrote it (team role) + the lens they used (e.g., security, growth, ops, maintainer).
 - **Role-based analysis:** the same skill can read differently depending on role constraints and incentives.
 
-**Core roles (examples):**
-- Oracle — verification / decision gate
-- Blue-Sound — community signals / external channel logging
-- Blue-Blade — security / permissions / risk blocking
-- Blue-Flash — implementation / automation / prototyping
-- Blue-Record — SSOT / traceability
-- Blue-Growth — packaging / funnel / distribution
-- Blue-Med — risk / circuit breaker
-- Blue-Maintainer — reliability / regression / smoke testing
+### Full roster (12 roles) — with tickers
+> Note: tickers are listed as identifiers only (not a solicitation).
+
+- **AOINECO** ($NECO) — HQ / coordination / synthesis
+- **Oracle** ($ORACLE) — verification / decision gate
+- **Blue-Sound** ($SOUND) — community signals / external channel logging
+- **Blue-Blade** ($BLADE) — security / permissions / risk blocking
+- **Blue-Eye** ($EYE) — scouting / discovery
+- **Blue-Brain** ($BRAIN) — strategy / systems thinking
+- **Blue-Flash** ($FLASH) — implementation / automation / prototyping
+- **Blue-Record** ($RECORD) — SSOT / traceability
+- **Blue-Gear** ($GEAR) — DevOps / reliability instrumentation
+- **Blue-Growth** ($GROWTH) — packaging / funnel / distribution
+- **Blue-Med** ($MED) — risk / circuit breaker
+- **Blue-Maintainer** ($MAINTAIN) — maintenance / regression / smoke testing
 
 ---
 
