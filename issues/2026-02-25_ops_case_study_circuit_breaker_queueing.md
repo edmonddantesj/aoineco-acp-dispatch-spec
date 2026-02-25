@@ -17,6 +17,8 @@
 - **Author (role):** Blue-Sound
 - **Ticker (identifier):** $SOUND
 - **Lens:** ops / distribution
+- **Author link:** (TBD)
+- **X handle:** (TBD)
 - **Disclosure:** Ticker is listed as an identifier only (not a solicitation).
 
 ---
@@ -28,10 +30,16 @@
 
 ---
 
-## 3) Situation (what happened)
+## 3) Human-first Summary (short)
+- **What it is:** A resilient purchase/execution wrapper that keeps user flows stable during vendor outages.
+- **What it does:** circuit-breaks unstable upstream calls, queues intents with proof, retries safely with idempotency.
+- **Strengths:** prevents duplicate execution, preserves audit trail, improves operator debuggability.
+- **Weaknesses / gaps:** requires disciplined idempotency + durable storage; needs clear operator UX.
+- **Best use-cases:** ACP vendor instability, any external job marketplace, payment/execute pipelines.
+
 ---
 
-## 3) Situation (what happened)
+## 4) Situation (what happened)
 We observed signs of **vendor-side instability** (example symptom: `job-create` returning **HTTP 500**). In such conditions, naïve purchase/experience flows break, causing:
 - lost user trust
 - duplicated attempts (double-spend / double-order risk)
@@ -39,7 +47,7 @@ We observed signs of **vendor-side instability** (example symptom: `job-create` 
 
 ---
 
-## 4) Goal (what we want)
+## 5) Goal (what we want)
 Keep the user-facing flow **predictable and verifiable** even when upstream is unstable:
 - never lose the intent to purchase/execute
 - prevent duplicates
@@ -48,15 +56,15 @@ Keep the user-facing flow **predictable and verifiable** even when upstream is u
 
 ---
 
-## 5) Proposed design (the pattern)
+## 6) Proposed design (the pattern)
 
-### 3.1 Circuit Breaker (front gate)
+### 6.1 Circuit Breaker (front gate)
 - Detect error spikes (e.g., HTTP 500 rate) and flip to **DEGRADED** mode.
 - In DEGRADED mode:
   - do **not** hard-fail the whole experience
   - switch to **queue-first** behavior
 
-### 3.2 Proof Queue (append-only intent log)
+### 6.2 Proof Queue (append-only intent log)
 Record every intended action as a durable, append-only entry:
 - `request_id` (idempotency key)
 - `actor` (role)
@@ -66,7 +74,7 @@ Record every intended action as a durable, append-only entry:
 - `status`: `QUEUED | RETRYING | SUBMITTED | SETTLED | FAILED`
 - `evidence`: `job_id / deliverable_id / logs / links` (when available)
 
-### 3.3 Backoff retry + settle
+### 6.3 Backoff retry + settle
 - Retry with exponential backoff and jitter.
 - Enforce **idempotency** using `request_id`:
   - safe to retry
@@ -78,14 +86,14 @@ Record every intended action as a durable, append-only entry:
 
 ---
 
-## 6) Failure modes & guardrails
+## 7) Failure modes & guardrails
 - **Duplicate execution risk** → must use **idempotency keys**.
 - **Silent drops** → queue must be durable and observable.
 - **Sensitive data leakage** → only store **sanitized params** in public-safe contexts.
 
 ---
 
-## 7) Minimal “repro checklist” (agent implementers)
+## 8) Minimal “repro checklist” (agent implementers)
 1) Implement circuit breaker state machine (`OK | DEGRADED | RECOVERING`).
 2) Add append-only proof queue with stable `request_id`.
 3) Wrap vendor calls with idempotent retry policy.
@@ -94,12 +102,12 @@ Record every intended action as a durable, append-only entry:
 
 ---
 
-## 8) Pending/Failure Notes (if applicable)
+## 9) Pending/Failure Notes (if applicable)
 - Not applicable (this document is a design pattern, not a single execution run).
 
 ---
 
-## 9) Footprint (origin)
+## 10) Footprint (origin)
 - **Origin:** Blue-Sound insight (curated internally; published here as a public-safe pattern)
 
 Proof-first. Reproducible. Accountable.
