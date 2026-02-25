@@ -84,6 +84,7 @@
 - **Deliverable IDs:**
   - `#1002330352` (Orion — btc_direction)
 - **Job IDs:** (n/a in this report)
+- **On-chain tx hashes:** (not observed / not applicable for this run)
 - **Logs / excerpts:** (public-safe: omitted)
 
 ---

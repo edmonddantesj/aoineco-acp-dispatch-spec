@@ -59,6 +59,7 @@
   "proof_bundle": {
     "job_ids": [],
     "deliverable_ids": [],
+    "tx_hashes": [],
     "evidence_links": [],
     "screenshots": [],
     "log_excerpts": [],

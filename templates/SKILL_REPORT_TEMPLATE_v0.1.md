@@ -72,6 +72,7 @@
 
 - **Evidence links:**
   - Job/Deliverable IDs: <id list>
+  - **On-chain tx hashes (if any):** <tx hash list>
   - Screenshots: <url(s)>
   - Logs / excerpts: <quoted snippets + link>
   - Canonical link(s): <url(s)>
