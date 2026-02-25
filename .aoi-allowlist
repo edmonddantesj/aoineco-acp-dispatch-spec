@@ -1,6 +1,8 @@
 # AOI Security Gate allowlist (default-deny)
 README.md
 LICENSE
+ATTRIBUTION.md
+BRAND_USAGE_POLICY.md
 templates/
 schemas/
 examples/
