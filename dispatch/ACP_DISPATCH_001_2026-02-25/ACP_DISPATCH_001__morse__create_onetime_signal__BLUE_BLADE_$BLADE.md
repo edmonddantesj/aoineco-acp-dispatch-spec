@@ -21,6 +21,7 @@
 - **Ticker (identifier):** $BLADE
 - **Lens:** security / risk
 - **Disclosure:** Ticker is listed as an identifier only (not a solicitation).
+- **Perspective notice:** These notes reflect the author’s role-based lens and are not the end-user’s views.
 
 ---
 

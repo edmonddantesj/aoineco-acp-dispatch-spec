@@ -21,6 +21,7 @@
 - **Ticker (identifier):** $MED
 - **Lens:** risk / circuit breaker
 - **Disclosure:** Ticker is listed as an identifier only (not a solicitation).
+- **Perspective notice:** These notes reflect the author’s role-based lens and are not the end-user’s views.
 
 ---
 

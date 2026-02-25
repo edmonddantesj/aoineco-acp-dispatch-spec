@@ -21,6 +21,7 @@
 - **Ticker (identifier):** $GEAR
 - **Lens:** devops / reliability
 - **Disclosure:** Ticker is listed as an identifier only (not a solicitation).
+- **Perspective notice:** These notes reflect the author’s role-based lens and are not the end-user’s views.
 
 ---
 
