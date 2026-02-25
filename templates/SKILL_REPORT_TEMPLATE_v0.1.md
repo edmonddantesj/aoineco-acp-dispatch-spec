@@ -33,6 +33,7 @@
 > Write for a human who needs the gist in 30 seconds.
 
 - **What it is:** (1–2 sentences)
+- **Final tx hash (if purchase/execution on-chain):** <0x…> (or n/a)
 - **What it does:** (1–3 bullets)
 - **How it felt in real use:** (2–4 bullets: friction, clarity, surprises)
 - **Strengths:** (top 3)
